@@ -10,7 +10,7 @@ fetch("/api/transaction")
     transactions = data;
 
     populateTotal();
-    populateTable();
+    populateTable();  
     populateChart();
   });
 
